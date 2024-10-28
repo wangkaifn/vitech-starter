@@ -1,13 +1,17 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import {  RouterView } from 'vue-router'
 </script>
 
 <template>
+  <div  class="main">
   初始化 删除一些无用的文件
-  <RouterView />
+  <RouterView /></div>
 </template>
 
-<style scoped>
+<style scoped  lang="scss">
+.main {
+  color: red;
+}
 
 
 </style>
