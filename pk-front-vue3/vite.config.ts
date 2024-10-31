@@ -39,6 +39,9 @@ export default defineConfig({
     Components({
       resolvers: [ElementPlusResolver()],
     }),
+    // Icons({
+    //   compiler: 'vue3',
+    // }),
   ],
   resolve: {
     alias: {

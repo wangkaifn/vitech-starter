@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffd7980f-b94e-49fe-8d45-cb844c7c1130" name="更改" comment="feat: unplugin-auto-import 自动导入">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="ffd7980f-b94e-49fe-8d45-cb844c7c1130" name="更改" comment="feat: unplugin-vue-components 自动组件注册">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pk-front-vue3/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pk-front-vue3/components.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pk-front-vue3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pk-front-vue3/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pk-front-vue3/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pk-front-vue3/pnpm-lock.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pk-front-vue3/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pk-front-vue3/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pk-front-vue3/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pk-front-vue3/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pk-front-vue3/uno.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pk-front-vue3/uno.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pk-front-vue3/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pk-front-vue3/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +90,7 @@
       <workItem from="1730122522542" duration="1335000" />
       <workItem from="1730123919707" duration="4568000" />
       <workItem from="1730296070568" duration="2917000" />
-      <workItem from="1730300550251" duration="2712000" />
+      <workItem from="1730300550251" duration="7933000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add sass&amp;reset-css">
       <option name="closed" value="true" />
@@ -135,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730302665717</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: unplugin-vue-components 自动组件注册">
+      <option name="closed" value="true" />
+      <created>1730303519716</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730303519716</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +169,7 @@
     <MESSAGE value="feat: vite-plugin-pages 自动路由方案" />
     <MESSAGE value="feat: unplugin-vue-router 自动路由方案" />
     <MESSAGE value="feat: unplugin-auto-import 自动导入" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: unplugin-auto-import 自动导入" />
+    <MESSAGE value="feat: unplugin-vue-components 自动组件注册" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: unplugin-vue-components 自动组件注册" />
   </component>
 </project>
