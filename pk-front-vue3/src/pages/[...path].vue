@@ -1,14 +1,11 @@
 <template>
-  <div>
-    <h1>首页</h1>
-  </div>
+  <div>111</div>
 </template>
 
 <script setup lang="ts"></script>
 
 <style scoped></style>
-
 <route lang="yaml">
 meta:
-layout: default
+  layout: 404
 </route>

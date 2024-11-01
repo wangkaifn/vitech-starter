@@ -8,6 +8,10 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     ElButton: typeof import('element-plus/es')['ElButton']
+    ElCol: typeof import('element-plus/es')['ElCol']
+    ElImage: typeof import('element-plus/es')['ElImage']
+    ElResult: typeof import('element-plus/es')['ElResult']
+    ElRow: typeof import('element-plus/es')['ElRow']
     ICarbonAppConnectivity: typeof import('~icons/carbon/app-connectivity')['default']
     IconLogosVue: typeof import('~icons/logos/vue')['default']
     IconMdiAccount: typeof import('~icons/mdi/account')['default']

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>首页</h1>
+    <h1>关于</h1>
   </div>
 </template>
 
@@ -9,6 +9,5 @@
 <style scoped></style>
 
 <route lang="yaml">
-meta:
-layout: default
-</route>
+  redirect: /
+  </route>
