@@ -14,6 +14,20 @@
 - `npm run lint`：运行 ESLint 并自动修复问题
 - `npm run format`：使用 Prettier 格式化代码
 
+## 主要功能点
+
+- **组件化开发**：使用 Vue 3 的组合式 API 和单文件组件进行开发，提升代码复用性和可维护性。
+- **状态管理**：集成 Pinia 作为状态管理库，简化应用状态的管理。
+- **路由管理**：使用 Vue Router 进行路由管理，支持动态路由和路由守卫。
+- **UI 组件库**：集成 Element Plus，提供丰富的 UI 组件，提升开发效率。
+- **样式处理**：使用 UnoCSS 进行原子化 CSS 管理，并支持 Sass 预处理器。
+- **自动化导入**：通过 unplugin-auto-import 和 unplugin-vue-components 实现自动导入，减少手动引入的繁琐操作。
+- **Mock 数据**：集成 Mock.js 和 vite-plugin-mock，方便进行本地数据模拟和接口测试。
+- **单元测试**：使用 Vitest 和 @vue/test-utils 进行单元测试，确保组件功能的正确性。
+- **端到端测试**：使用 Cypress 进行端到端测试，模拟用户操作，验证应用的整体功能。
+- **代码质量**：集成 ESLint 和 Prettier，统一代码风格，提升代码质量。
+- **PWA 支持**：通过 vite-plugin-pwa 实现渐进式 Web 应用支持，提升用户体验。
+
 ## 依赖包说明
 
 ### 生产依赖
