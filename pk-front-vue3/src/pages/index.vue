@@ -2,7 +2,6 @@
   <div>
     <h1>首页</h1>
     <ReloadPrompt />
-    测试
   </div>
 </template>
 
