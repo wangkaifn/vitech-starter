@@ -9,5 +9,6 @@
 <style scoped></style>
 
 <route lang="yaml">
-  redirect: /
-  </route>
+  meta:
+    layout: 404
+</route>

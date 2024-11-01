@@ -1,13 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="main">
-    <RouterView />
-  </div>
+  <RouterView />
 </template>
 
-<style scoped lang="scss">
-.main {
-  color: red;
-}
-</style>
+<style scoped lang="scss"></style>

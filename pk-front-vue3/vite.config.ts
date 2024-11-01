@@ -14,6 +14,8 @@ import Components from 'unplugin-vue-components/vite'
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 import Layouts from 'vite-plugin-vue-layouts'
+
+import { VitePWA } from 'vite-plugin-pwa'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
@@ -31,6 +33,8 @@ export default defineConfig({
       imports: [
         // presets
         'vue',
+        '@vueuse/core',
+        'pinia',
         VueRouterAutoImports,
       ],
       resolvers: [ElementPlusResolver()],
@@ -44,7 +48,29 @@ export default defineConfig({
     }),
     Layouts({
       layoutsDirs: 'src/layouts',
+      pagesDirs: 'src/pages',
       defaultLayout: 'default',
+    }),
+    VitePWA({
+      manifest: {
+        name: 'Vite App',
+        short_name: 'Vite App',
+        theme_color: '#ffffff',
+        icons: [
+          {
+            src: '/192x192.png',
+            sizes: '192x192',
+            type: 'image/png',
+          },
+          {
+            src: '/512x512.png',
+            sizes: '512x512',
+            type: 'image/png',
+          },
+        ],
+      },
+      // 如果不需要给用户安装提示，autoUpdate
+      // registerType: 'autoUpdate',
     }),
   ],
   resolve: {

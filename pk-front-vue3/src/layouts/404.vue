@@ -11,7 +11,7 @@
 </template>
 
 <script setup lang="ts">
-import Page404 from '@/assets/images/404.png'
+
 
 </script>
 
